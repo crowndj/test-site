@@ -1,2 +1,2 @@
 # test-site
-camp sudo
+camp sudo!
