@@ -1,0 +1,155 @@
+<html>
+  <head>
+    <title>Welcome to Vector Apparrel!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="js/jquery-carousel.min.js"></script>
+    <script src="js/bootstrap-carousel.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href='http://fonts.googleapis.com/css?family=Rye' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Palanquin+Dark' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Yantramanav:400,300'
+    rel='stylesheet' type='text/css'>
+    <script src="js/discountSwitch.js" type="text/javascript"></script>
+    <style>
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="box2">Vector Apparrel</div>
+      <a href="index.html" class="vector">
+        <img src="imgs/vector-transparent.png" class="vector">
+      </a>
+      <div id="wrapper">
+        <div id="navMenu">
+          <ul>
+            <li><a href="#" class="browse1">BROWSE MORE</a>
+              <ul class="border">
+                <li class="browse"><a href="shirts.html">Shirts</a></li>
+                <li class="browse"><a href="#">Hats</a></li>
+                <li class="browse"><a href="#">Release Dates</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li><a href="checkout.html">CHECK OUT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="vision-container">
+      <h1 id="vision-title">
+        Our vision for Vector Clothing
+      </h1>
+      <p id="vision">
+        We envision our customers to have the best possible experience
+        in their check-out process. By that we would like to include giving the
+        most possibly detailed descriptions of each article of clothing for
+        where it was made, how it was made, what it is made of and all options
+        available in your region to make your order go through as accurately as
+        possible.
+      </p>
+    </div>
+    <div id="sale-container">
+      <h1 id="discounts-title">
+        Our recently discounted clothing
+      </h1>
+      <div class="discounts">
+        <div onclick="itemBack()" class="arrow left-arrow"></div>
+        <div class="item" id="item1"></div>
+        <div class="item" id="item2"></div>
+        <div class="item" id="item3"></div>
+        <div onclick="itemSwitch()" class="arrow right-arrow"></div>
+      </div>
+    </div>
+    <div id="picture-container">
+      <div id="pictureofus">
+      </div>
+    </div>
+    <div id="about-container">
+      <div id="aboutus">
+        <h1 id="aboutus-title">
+          About the Creators
+        </h1>
+        <p id="about">
+          We are three Berkeley High School students who attended Camp Sudo
+          to learn our web development expertise weren't introduced to computer science until Camp Sudo,
+          and plan to continue learning after the program is over. Tonyreyy is a skateboard
+          instructor, Chris P is an incoming sophomore in BIHS, Grogan is big time gamer.
+        </p>
+      </div>
+    </div>
+    <div class="carousel-container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <!-- <img src="imgs/skaters1.jpg" alt="Skaters in SF" width="460" height="345"> -->
+            <div class="skaterpic" id="skaters1">
+            </div>
+          </div>
+
+          <div class="item">
+            <!-- <img src="imgs/skaters2.jpg" alt="Skaters in SF" width="460" height="345"> -->
+            <div class="skaterpic" id="skaters2">
+            </div>
+          </div>
+
+          <div class="item">
+            <!-- <img src="imgs/skaters3.jpg" alt="Skaters in SF" width="460" height="345"> -->
+            <div class="skaterpic" id="skaters3">
+            </div>
+          </div>
+
+          <div class="item">
+            <!-- <img src="imgs/skaters4.jpg" alt="Skaters in SF" width="460" height="345"> -->
+            <div class="skaterpic" id="skaters4">
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="footer">
+      <ul class="footer-nav">
+        <a href="about.html">
+          <li class="listed">
+            About
+          </li>
+        </a>
+        <a href="contactus.html">
+          <li class="listed">
+            Contact Us
+          </li>
+        </a>
+        <p class="para">
+          &copy <span>2015 Vector Apparrel</span>
+        </div>
+      </p>
+    </ul>
+  </body>
+</html>
