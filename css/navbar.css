@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+}
+.navbar {
+  width: 100%;
+  display: inline-block;
+  margin:0 auto;
+  text-align: right;
+}
+.box{
+  width: 100%;
+  height: 182px;
+  background-color: #222;
+  margin-bottom: 35px;
+}
+.box2{
+  text-align: center;
+  font-family: 'Rye', cursive;
+  font-size: 40px;
+  color: white;
+  padding-top: 0;
+}
+.vector{
+  height: 182px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+#navMenu{
+  margin-left: 70%;
+  padding: 0;
+  position: relative;
+  top: 100;
+}
+#navMenu ul{
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+#navMenu li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+#navMenu ul li a{
+  text-align: center;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  height: 30px;
+  width: 150px;
+  display: block;
+  color: white;
+}
+#navMenu ul ul{
+  position: absolute;
+  visibility: hidden;
+  top: 30px;
+}
+#navMenu ul li:hover ul{
+  visibility: visible;
+}
+#navMenu ul li ul li a{
+  color: black;
+}
+.border{
+  border: 2px solid #222;
+  z-index: 999;
+}
+.browse {
+  background-color: white;
+  z-index: 999;
+}
+.bottomSection {
+  color: #333;
+  margin-top: 90%;
+  text-align: center;
+}
+.about {
+  color: black;
+}
+.footer {
+ background-color: #222;
+ width:100%;
+ height: 118px;
+ font-family: 'Palanquin Dark', sans-serif;
+ text-decoration: none;
+ text-align: center;
+ margin-top: 90px;
+ position: relative;
+}
+.footer-nav {
+ list-style: none;
+ display: inline-block;
+ text-decoration: none;
+ color: white;
+}
+.listed {
+ color: white;
+ display: inline-block;
+ padding: 10px;
+ text-decoration: none;
+}
+.para {
+ font-weight: 300;
+ position: absolute;
+ bottom: 10;
+}
+a {
+ text-decoration: none;
+ color: white;
+}
+.browse1{
+  font-size: 14px;
+}

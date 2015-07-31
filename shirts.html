@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <title>Vector Apparrel - Browse T-Shirts</title>
+    <link rel="stylesheet" type="text/css" href="css/shirtstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link href='http://fonts.googleapis.com/css?family=Rye' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Palanquin+Dark' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Yantramanav:400,300'>
+    <script src="js/shirtSwitch.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="box">
+      <div class="box2">Vector Apparrel</div>
+        <a href="index.html" class="vector">
+          <img src="imgs/vector-transparent.png" class="vector">
+        </a>
+        <div id="wrapper">
+          <div id="navMenu">
+            <ul>
+              <li><a href="#">BROWSE MORE</a>
+                <ul class="border">
+                  <li class="browse"><a href="shirts.html">Shirts</a></li>
+                  <li class="browse"><a href="#">Hats</a></li>
+                  <li class="browse"><a href="#">Release Dates</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li><a href="checkout.html">CHECK OUT</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+    <h1 id="shop-now">
+      Shop Now
+    </h1>
+    <div class="containerpanes">
+      <div class="containerpane">
+        <div class="containershirts">
+          <div onclick="shirtBack()" class="arrow left-arrow"></div>
+          <div class="shirt" id="shirt1"></div>
+          <div class="shirt" id="shirt2"></div>
+          <div class="shirt" id="shirt3"></div>
+          <div class="shirt" id="shirt4"></div>
+          <div onclick="shirtSwitch()" class="arrow right-arrow"></div>
+        </div>
+        <p class="dets">
+          <p class="price">
+            $15<span class="zeros">.<u>00</u></span>
+          </p>
+          <form action="" method="POST">
+            <script
+              src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+              data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+              data-amount="2000"
+              data-name="Demo Site"
+              data-description="2 widgets ($20.00)"
+              data-image="/128x128.png">
+            </script>
+          </form>
+        </p>
+      </div>
+      <div class="containerpane">
+        <div class="containershirts">
+          <div onclick="shirtBack2()" class="arrow left-arrow"></div>
+          <div class="shirt" id="shirt5"></div>
+          <div class="shirt" id="shirt6"></div>
+          <div class="shirt" id="shirt7"></div>
+          <div class="shirt" id="shirt8"></div>
+          <div onclick="shirtSwitch2()" class="arrow right-arrow"></div>
+        </div>
+        <p class="dets">
+          <p class="price">
+            $15<span class="zeros">.<u>00</u></span>
+          </p>
+          <form action="" method="POST">
+            <script
+              src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+              data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+              data-amount="2000"
+              data-name="Demo Site"
+              data-description="2 widgets ($20.00)"
+              data-image="/128x128.png">
+            </script>
+          </form>
+        </p>
+      </div>
+      <div class="containerpane">
+        <div class="containershirts">
+          <div onclick="shirtBack3()" class="arrow left-arrow"></div>
+          <div class="shirt" id="shirt9"></div>
+          <div class="shirt" id="shirt10"></div>
+          <div class="shirt" id="shirt11"></div>
+          <div class="shirt" id="shirt12"></div>
+          <div onclick="shirtSwitch3()" class="arrow right-arrow"></div>
+        </div>
+        <p class="dets">
+          <p class="price">
+            $15<span class="zeros">.<u>00</u></span>
+          </p>
+          <form action="" method="POST">
+            <script
+              src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+              data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+              data-amount="2000"
+              data-name="Demo Site"
+              data-description="2 widgets ($20.00)"
+              data-image="/128x128.png">
+            </script>
+          </form>
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <ul class="footer-nav">
+        <a href="about.html">
+          <li class="listed">
+            About
+          </li>
+        </a>
+        <a href="contactus.html">
+          <li class="listed">
+            Contact Us
+          </li>
+        </a>
+        <p class="para">
+          &copy <span>2015 Vector T-Shirts</span>
+        </div>
+      </p>
+    </ul>
+  </body>
+</html>

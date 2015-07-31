@@ -1,0 +1,181 @@
+<html>
+  <head>
+    <title>Welcome to Vector T-Shirts!</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/shirtstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link href='http://fonts.googleapis.com/css?family=Rye' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Palanquin+Dark' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Yantramanav:400,300'
+    rel='stylesheet' type='text/css'>
+    <script src="js/index.js" type="text/javascript"></script>
+    <script src="js/shirtSwitch.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="js/jquery-carousel.min.js"></script>
+    <script src="js/bootstrap-carousel.min.js"></script>
+    <style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="box2">Vector Clothing</div>
+          <a href="navbar.html" class="vector">
+            <img src="imgs/vector.png" class="vector">
+          </a>
+          <div id="wrapper">
+          <div id="navMenu">
+            <ul>
+              <li><a href="#">BROWSE MORE</a>
+                <ul class="border">
+                  <li class="browse"><a href="#">Shirts</a></li>
+                  <li class="browse"><a href="#">Hats</a></li>
+                  <li class="browse"><a href="#">Release Dates</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li><a href="checkout.html">CHECK OUT</a>
+              </li>
+              </ul>
+          </div>
+      </div>
+    </div>
+    <div id="vision-container">
+      <h1 id="vision-title">
+        Our vision for Vector Clothing
+      </h1>
+      <p id="vision">
+        We envision our customers to have the best possible experience
+        in their check-out process. By that we would like to include giving the
+        most possibly detailed descriptions of each article of clothing for
+        where it was made, how it was made, what it is made of and all options
+        available in your region to make your order go through as accurately as
+        possible.
+      </p>
+    </div>
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="imgs/skaters1.jpg" alt="Skaters in SF" width="460" height="345">
+          </div>
+
+          <div class="item">
+            <img src="imgs/skaters2.jpg" alt="Skaters in SF" width="460" height="345">
+          </div>
+
+          <div class="item">
+            <img src="imgs/skaters3.jpg" alt="Skaters in SF" width="460" height="345">
+          </div>
+
+          <div class="item">
+            <img src="imgs/skaters4.jpg" alt="Skaters in SF" width="460" height="345">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="containerpanes">
+      <div class="containerpane">
+        <div class="containershirts">
+          <div onclick="shirtBack()" class="arrow left-arrow"></div>
+          <div class="shirt" id="shirt1"></div>
+          <div class="shirt" id="shirt2"></div>
+          <div class="shirt" id="shirt3"></div>
+          <div class="shirt" id="shirt4"></div>
+          <div onclick="shirtSwitch()" class="arrow right-arrow"></div>
+        </div>
+        <p class="dets">
+          <p class="price">
+            $15<span class="zeros">.<u>00</u></span>
+          </p>
+          <form action="" method="POST">
+            <script
+              src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+              data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+              data-amount="2000"
+              data-name="Demo Site"
+              data-description="2 widgets ($20.00)"
+              data-image="/128x128.png">
+            </script>
+          </form>
+        </p>
+      </div>
+      <div class="containerpane">
+        <div class="containershirts">
+          <div onclick="shirtBack2()" class="arrow left-arrow"></div>
+          <div class="shirt" id="shirt5"></div>
+          <div class="shirt" id="shirt6"></div>
+          <div class="shirt" id="shirt7"></div>
+          <div class="shirt" id="shirt8"></div>
+          <div onclick="shirtSwitch2()" class="arrow right-arrow"></div>
+        </div>
+        <p class="dets">
+          <p class="price">
+            $15<span class="zeros">.<u>00</u></span>
+          </p>
+          <form action="" method="POST">
+            <script
+              src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+              data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+              data-amount="2000"
+              data-name="Demo Site"
+              data-description="2 widgets ($20.00)"
+              data-image="/128x128.png">
+            </script>
+          </form>
+        </p>
+      </div>
+      <div class="containerpane">
+        <div class="containershirts">
+          <div onclick="shirtBack3()" class="arrow left-arrow"></div>
+          <div class="shirt" id="shirt9"></div>
+          <div class="shirt" id="shirt10"></div>
+          <div class="shirt" id="shirt11"></div>
+          <div class="shirt" id="shirt12"></div>
+          <div onclick="shirtSwitch3()" class="arrow right-arrow"></div>
+        </div>
+        <p class="dets">
+          <p class="price">
+            $15<span class="zeros">.<u>00</u></span>
+          </p>
+          <form action="" method="POST">
+            <script
+              src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+              data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+              data-amount="2000"
+              data-name="Demo Site"
+              data-description="2 widgets ($20.00)"
+              data-image="/128x128.png">
+            </script>
+          </form>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
